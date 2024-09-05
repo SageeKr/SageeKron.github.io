@@ -42,7 +42,7 @@ const MainProjectCard = ({ title, description, image }) => {
         <div className="flex justify-center mt-4">
         <a
           href="https://github.com/SageeKr/JobTracker"
-          className="inline-block w-1/4 py-4 mt-3 text-black border-2 text-center border-black text-lg font-semibold rounded-md hover:rounded-none hover:text-blue-500 hover:border-blue-500 focus:outline-none focus:shadow-outline cursor-pointer"
+          className="inline-block sm:w-1/4 py-4 text-black border-2 text-center border-black text-lg font-semibold rounded-md hover:rounded-none hover:text-blue-500 hover:border-blue-500 focus:outline-none focus:shadow-outline cursor-pointer font-open-sans"
           target= "_blank"
           rel="noopener noreferrer"
         >
