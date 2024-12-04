@@ -5,7 +5,7 @@ import sageePhoto from '../assets/SageeKron.jpg'; // Import the photo
 
 const HeroSection = () => {
   const [opacity, setOpacity] = useState(1);
-
+  const words = ["data storyteller", "problem solver","data analyst", "BI analyst","data engineer"];
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -62,7 +62,7 @@ const HeroSection = () => {
           Explore my latest projects and works in the world of data.
         </p>
         
-        <Typing className="my-4 text-3xl font-montserrat" />
+        <Typing className="my-4 text-3xl font-montserrat" words={words}/>
         
         <div
           onClick={scrollDown}
