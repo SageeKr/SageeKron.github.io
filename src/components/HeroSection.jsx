@@ -5,7 +5,7 @@ import sageePhoto from '../assets/SageeKron.jpg'; // Import the photo
 
 const HeroSection = () => {
   const [opacity, setOpacity] = useState(1);
-  const words = ["data storyteller", "problem solver","data analyst", "BI analyst","data engineer"];
+  const words = ["data storyteller", "problem solver","", "team player","self learner"];
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;

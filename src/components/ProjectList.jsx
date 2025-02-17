@@ -8,8 +8,16 @@ import expensesAnalysis from '../assets/expenses-analysis.jpg';
 import airwaysDashboard from '../assets/airways_dashbaord.png'
 import powerBILogo from '../assets/Power-BI-Logo.png'
 import tableauLogo from '../assets/Tableau-Logo.png'
+import SQLDataWarehouse from '../assets/sql-data-warehouse-project.png'
 
 const projects = [
+  {
+    title: 'SQL Data Warehouse & Analytics',
+    description: 'Built a SQL Server data warehouse, designed ETL pipelines, and created fact/dimension tables for analytics.',
+    image:SQLDataWarehouse,
+    icon:'devicon-microsoftsqlserver-plain',
+    url:'https://github.com/SageeKr/Sql-Data-Warehouse-Project'
+  },
   {
     title: 'Layoff Trends Analysis',
     description: 'Cleaned, analyzed, and extracted insights from a real-world layoffs dataset using SQL to uncover key trends and patterns',
